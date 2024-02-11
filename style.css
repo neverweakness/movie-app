@@ -4,6 +4,16 @@
     box-sizing: border-box;
   }
   
+  .in-progress {
+    position: absolute;
+    margin-block-start: 50px;
+    margin-inline-start: 500px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: normal;
+    color: white;
+  }
+
   body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgb(173, 81, 16) 50%, rgba(0,0,0,1) 99%);

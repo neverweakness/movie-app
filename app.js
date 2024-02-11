@@ -222,7 +222,7 @@ function getFilmName(film) {
 // Отсечение процента от рейтинга массива
 function getRating(movie) {
     if (typeof movie.rating === 'string') {
-        if (movie.rating.length == '6'){
+        if (movie.rating.length == '5'){
         return movie.rating.substr(1, 3);
     } else return movie.rating
     } else if (typeof movie.ratingKinopoisk === 'number') {
